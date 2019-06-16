@@ -61,6 +61,15 @@ License URI:  http://www.gnu.org/licenses/gpl.html
 	border-color: #008fde;
 }
 
+.content.content a.link-bright {
+	border: none;
+	transition: opacity 0.2s;
+}
+
+.content.content a.link-bright:hover {
+	opacity: 0.8;
+} 
+
 
 /* プロフィール */
 .profile__thumb {
